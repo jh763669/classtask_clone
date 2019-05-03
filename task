@@ -24,7 +24,11 @@ def ip_address_mask(input_file_name,output_file_name):
         
     out = open(output_file_name, "a")
     print(list_tuple)
-
+    for each in list_tuple:
+        s = ' '.join(each)
+        out.write(s)
+        out.write('\n')
+    
     out.close()
     fin.close()
 
