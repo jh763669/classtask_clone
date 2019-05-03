@@ -1,0 +1,8 @@
+result = []
+with open('report.txt','r') as f:
+    for line in f:
+        result.append(list(line.strip('\n').split(',')))
+
+for i in result:
+    if i[:11] == ' ip address':
+        
