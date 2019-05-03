@@ -1,4 +1,4 @@
-# Programming Task 1 
+# Sample Programming Task 1 
 
 
 Welcome to your first programming task 
@@ -7,16 +7,13 @@ Welcome to your first programming task
   - Use git add, commit and push to send the code back. 
   - Don't forget to add user name and email on git. 
   - You are allowed to use any form of searching and documentation reading and book reading is promoted
-  - You cannot talk to your other people or ask for help!
 
 # The task!
 
 
 Use the attached partial firewall configuration file for the following exercises.
  
-1 - Write a Python script to scan the configuration and list all VLAN IDs assigned to the firewall (sub-)interfaces, print a list of all interface names associated with VLAN IDs
+1 - Write a Python function to list a tuple of the IP addresses and their netmask. [Return a list that contains a tuple(IP,MASK)]
 
-2 - Create a new configuration file that replaces all (sub-)interface IP addresses that start with '172.' with IP addresses that start with '192.'. Leave the remaining octets unchanged. 
-
-3 - Create a Python dictionary of all access lists configured in the firewall. The dictionary should be referenced by the access lists name and include all the lines in the access list intact.
+2 - Write a Python function to list a Interface names in a new file called "inf.confg" 
   
